@@ -28,6 +28,7 @@ var collectionsToBeLoaded={
 ```
 
 3. Initialize  DbPopulator (specifying the parameters for the mongodb connection and the data to be loaded) and execute it
+```
 new DbPopulator({
 	databaseName: 'dbPopulatorTest',
 	data: collectionsToBeLoaded,
