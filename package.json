@@ -1,6 +1,6 @@
 {
   "name": "mongo-db-populator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It lets to load fixtures for MongoDB on NodeJS. The fixtures can be specified as json files in a folder, or as Javascript objects.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "license": "GPL v2",
   "dependencies": {
     "deferred": "~0.6.5",
-    "pow-mongodb-fixtures": "~0.9.0"
+    "pow-mongodb-fixtures": "^0.9.0"
   }
 }
